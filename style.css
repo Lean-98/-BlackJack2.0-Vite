@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size:100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color:#1ABC9C; 
+  color: white;
+  position: relative;
+  padding-bottom: 2px;
+  min-height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 40px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.carta {
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+
+}
+
+#computadora-cartas, #jugador-cartas {
+  height: 240px;
+}
+
+.footer {
+  background-color:#48C9B0 ;
+  padding: 8px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
+
+ address, a {
+  color:#E8F5E9 ;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  color: #FA8072;
+}
