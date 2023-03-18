@@ -39,10 +39,11 @@ export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputador
                 imageHeight: 200,
                 padding: '6rem',
                 color: '#716add',
-                background: '#F0FFF0',
+                background: '#BBDED6',
                 imageUrl: 'https://media.giphy.com/media/xT3i0P4CYQcdmFZQkM/giphy.gif',
                 position: 'center',
-                timer: 7000
+                grow: 'fullscreen',
+                timer: 5000
               })
         } else if ( puntosMinimos > puntosComputadora && puntosMinimos <= 21 || puntosComputadora > 21 ) {
             Swal.fire({
@@ -52,10 +53,11 @@ export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputador
                 imageHeight: 200,
                 padding: '7rem',
                 color: '#716add',
-                background: '#F0FFF0',
+                background: '#BBDED6',
                 imageUrl: 'https://media.giphy.com/media/3ov9jNw01KHVtg4Sd2/giphy.gif',
                 position: 'center',
-                timer: 7000
+                grow: 'fullscreen',
+                timer: 5000
               })
 
         } else if ( puntosComputadora > puntosMinimos && puntosComputadora <= 21 || puntosMinimos > 21 ) {
@@ -65,13 +67,15 @@ export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputador
                 width: 600,
                 imageWidth: 400,
                 imageHeight: 200,
-                padding: '6rem',
+                 padding: '6rem',
                 color: '#716add',
-                background: '#F0FFF0',
+                background: '#BBDED6',
                 imageUrl: 'https://media.giphy.com/media/iG7Kwfxga9r20/giphy.gif',
                 position: 'center',
-                timer: 7000
+                grow: 'fullscreen',
+                timer: 5000
               })
+            
         }
     }, 1000);
 }
