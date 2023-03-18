@@ -4,7 +4,7 @@ JavaScript vanilla sweetalert2 Vite
 
 ## Screenshots
 
-[![blackjack.png](https://i.postimg.cc/YjKtfHYR/blackjack.png)](https://postimg.cc/301MYzL0)
+[![blackjack-01.png](https://i.postimg.cc/SRVBkGnN/blackjack-01.png)](https://postimg.cc/jnwghP6G)
 
 ## Optimizations
 
